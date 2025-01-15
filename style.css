@@ -28,3 +28,12 @@ img{
         grid-template-columns: 1fr;
     }
 }
+@media screen (min-width:576px) and (max-width:982px) {
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+    .square-row{
+        grid-template-columns: 2fr;
+    }
+}
