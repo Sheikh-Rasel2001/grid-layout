@@ -29,12 +29,12 @@ img{
     }
 }
 /* medium responsive  */
-@media screen and (min-width: 576px) and (max-width: 800px) {
+@media screen and (min-width: 576px) and (max-width: 992px) {
     .row{
         flex-direction: column;
         height: auto;
     }
     .square-row{
-        grid-template-columns: 2fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
